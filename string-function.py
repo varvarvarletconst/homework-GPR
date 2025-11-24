@@ -14,12 +14,12 @@ print(sequence.swapcase())
 #f 
 print(sequence.replace('a', 'e'))
 
-a = 'My friend told me that it\'s time for me to stop trying to do programming because I\'m not cut out for it.'
-b = 'ОПАСНОСТЬ'
-c = 'I can recite pi from memory: 3.1415926...'
+a = 'My friend told me that it\'s time for me to stop trying to do programming'
+b = 'BECAUSE'
+c = 'I\'m not cut out for it.'
 
 #test 1
-print('test one: a = My friend told me that it\'s time for me to stop trying to do programming because I\'m not cut out for it.')
+print('test one: a = My friend told me that it\'s time for me to stop trying to do programming')
 #a  
 print(len(a))
 #b 
@@ -36,7 +36,7 @@ print(a.swapcase())
 print(a.replace('a', 'e'))
 
 #test 2
-print('test two')
+print('test two: b = BECAUSE')
 #a  
 print(len(b))
 #b 
@@ -53,6 +53,8 @@ print(b.swapcase())
 print(b.replace('a', 'e'))
 
 #test 3
+
+print('test 3: c = I\'m not cut out for it.')
 #a  
 print(len(c))
 #b 
