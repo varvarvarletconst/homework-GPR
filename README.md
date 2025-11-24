@@ -1,5 +1,7 @@
 # homework-GPR
 my GPR homework code
+***
+
 README for the file pseudo-strFind:
 the aim is to recreate the function str.find() using only cycles, indexes, slicing and simple math. it finds the first index of the intersection of the string needle with a string haystack. it's not allowed to use str.xxx() 
 
