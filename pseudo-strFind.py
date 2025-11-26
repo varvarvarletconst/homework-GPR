@@ -3,12 +3,9 @@ haystack = input('haystack: ') #the group of symbols where we are looking for it
 #I found out that needl and haystack are traditional named for this type of exercises 
 
 def find_substring(needle, haystack):
-    if len(needle) == 0:
-        return 0
     for i in range(len(haystack) - len(needle) + 1):
         if haystack[i:i+len(needle)] == needle:
             return i
-    return -1
 
 print(find_substring(needle, haystack))
 
