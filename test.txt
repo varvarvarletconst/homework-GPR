@@ -1,0 +1,4 @@
+Пример чисел: 3.14, 2,71, 100.0
+HTML-теги: <div>Контент</div>, <p>Параграф</p>
+Ссылки: <a href="https://example.com">Сайт</a>, <a href="https://github.org">GitHub</a>
+Ещё числа: 0.5, 42, 7,77
